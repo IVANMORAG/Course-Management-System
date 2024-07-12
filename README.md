@@ -1,6 +1,6 @@
 # Course Management System
 
-![Logo](https://github.com/IVANMORAG/IVANMORAG/blob/main/cursos/home.png)
+![Logo](https://github.com/IVANMORAG/IVANMORAG/blob/main/cursos/cursos.png)
 
 ## Overview
 
