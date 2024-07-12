@@ -35,12 +35,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['correo'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'transportistasweb@gmail.com'; // Coloca aquí tu correo de la organización
-        $mail->Password = 'rahq dnlm khkq wcsg '; // Coloca aquí tu contraseña de aplicación generada
+        $mail->Username = 'empresa@gmail.com'; // Coloca aquí tu correo de la organización
+        $mail->Password = ' (Generar token de la cuenta)'; // Coloca aquí tu contraseña de aplicación generada
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('transportistasweb@gmail.com', 'DeCasa');
+        $mail->setFrom('empresa@gmail.com', 'DeCasa');
         $mail->addAddress($correoElectronico);
 
         // Contenido del correo
