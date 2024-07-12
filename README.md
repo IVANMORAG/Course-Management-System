@@ -1,5 +1,7 @@
 # Course Management System
 
+![Logo](https://github.com/IVANMORAG/IVANMORAG/blob/main/cursos/home.png)
+
 ## Overview
 
 The Course Management System is a comprehensive application designed to facilitate the management of courses, including functionalities to add, edit, and delete courses. This system uses PHP for backend operations and MySQL for efficient data management, with XAMPP as the local development environment. The application also supports Navicat for database management.
