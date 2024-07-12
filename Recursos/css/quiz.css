@@ -1,0 +1,90 @@
+.quiz-section {
+    width: 90%; /* Ancho del 90% del contenedor padre */
+    max-width: 1200px; /* Ancho máximo para limitar el tamaño en pantallas grandes */
+    margin: 0 auto;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #6f91f7; /* Fondo azul para la sección del quiz */
+    color: #f3f3f3; /* Color de texto claro por defecto */
+}
+
+
+.quiz-section.dark-mode {
+    background-color: #333; /* Fondo oscuro para la sección del quiz en modo oscuro */
+    color: #fff; /* Color de texto claro para el quiz en modo oscuro */
+}
+
+.quiz-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.quiz-question {
+    margin-bottom: 2.5rem;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones para el color de fondo y texto */
+}
+
+.quiz-question:hover {
+    background-color: #e0e0e0; /* Fondo gris más claro al pasar el cursor */
+    color: #000000; /* Color de texto azul claro al pasar el cursor */
+}
+
+.question-text {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.quiz-option {
+    margin-bottom: 0.75rem;
+}
+
+.option-input {
+    margin-right: 10px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre las opciones */
+}
+
+.option-label {
+    font-size: 1.125rem;
+    cursor: pointer; /* Cambia el cursor al pasar sobre las etiquetas de las opciones */
+}
+
+.quiz-submit {
+    display: block;
+    width: 50%; /* Ancho del 50% del contenedor padre */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    padding: 10px;
+    font-size: 1.25rem;
+    color: #0b0b0b;
+    background-color: #e0e0e0; /* Fondo gris claro para el botón de enviar */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-submit:hover {
+    background-color: #ffffff; /* Fondo azul más oscuro al pasar el cursor */
+}
+
+.quiz-result {
+    margin-top: 1.5rem;
+    display: none;
+}
+
+.result-text {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
